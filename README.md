@@ -1,5 +1,4 @@
 # Voice-VLANs
-<h1>Voice VLANs</h1>
 
 <h2>Description</h2>
 Configure two VLANs, one for PCs and one for IP phones. Configure ROAS on router. Verify results with show/ping/traceroute.
