@@ -25,10 +25,6 @@ Configure two VLANs, one for PCs and one for IP phones. Configure ROAS on router
 
 <br />
 <br />
-Drag and frop devices as seen in the diagram. Connect devices with appropriate cabling. Run command 'show cdp neighbors' to label interfaces. Label devices with hostnames: <br/>
-<img src="https://i.imgur.com/6raWWEw.png" height="80%" width="80%" />
-<br />
-<br />
 SW1(config-if)#int range g1/0/2 - 3 <br />
 SW1(config-if-range)#switchport mode access <br />
 SW1(config-if-range)#switchport access vlan 10 <br />
