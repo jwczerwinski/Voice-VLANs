@@ -9,11 +9,7 @@ Configure two VLANs, one for PCs and one for IP phones. Configure ROAS on router
 
 - <b>Cisco IOS 2800 Software, Version 15.1(4)M4</b>  <br />
 
-[Software Configuration Guide](https://www.cisco.com/c/en/us/td/docs/routers/access/1900/software/configuration/guide/Software_Configuration.html)<br />
-
 - <b>Cisco IOS Denali, Catalyst L3 Switch Software, Version 16.3.2</b> <br />
-
-[Command Reference](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3650/software/release/16-3/command_reference/b_163_consolidated_3650_cr.html)<br />
 
 [Software Configuration Guide](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3650/software/release/16-3/configuration_guide/b_163_consolidated_3650_cg.html)<br />
 
@@ -21,10 +17,6 @@ Configure two VLANs, one for PCs and one for IP phones. Configure ROAS on router
 <img src="https://i.imgur.com/dX80aU9.png" height="80%" width="80%" />
 
 <h2>Walk-through:</h2>
-<p align="center">
-
-<br />
-<br />
 SW1(config-if)#int range g1/0/2 - 3 <br />
 SW1(config-if-range)#switchport mode access <br />
 SW1(config-if-range)#switchport access vlan 10 <br />
