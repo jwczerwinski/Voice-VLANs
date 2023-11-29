@@ -34,7 +34,7 @@ R1(config-subif)#ip address<br /> 192.168.10.1 255.255.255.0<br />
 R1(config-subif)#no shut<br />
 R1(config-subif)#int f0/0.20<br />
 R1(config-subif)#encapsulation dot1q 20<br />
-R1(config-subif)#ip address<br /> 192.168.20.1 255.255.255.0<br />
+R1(config-subif)#ip address 192.168.20.1 255.255.255.0<br />
 R1(config-subif)#no shut<br />
 R1(config-subif)#int f0/0<br />
 R1(config-if)#no shut<br />
