@@ -28,17 +28,16 @@ SW1(config-if)#do show vlan <br />
 <img src="https://i.imgur.com/xbgjPgG.png" height="80%" width="80%" />
 <br />
 <br />
-R1(config)#int f0/0.10
-R1(config-subif)#encapsulation dot1q 10
-R1(config-subif)#ip address 192.168.10.1 255.255.255.0
-R1(config-subif)#no shut
-R1(config-subif)#int f0/0.20
-R1(config-subif)#encapsulation dot1q 20
-R1(config-subif)#ip address 192.168.20.1 255.255.255.0
-R1(config-subif)#no shut
-R1(config-subif)#int f0/0
-R1(config-if)#no shut
-R1(config-if)#no shut
+R1(config)#int f0/0.10<br />
+R1(config-subif)#encapsulation dot1q 10<br />
+R1(config-subif)#ip address<br /> 192.168.10.1 255.255.255.0<br />
+R1(config-subif)#no shut<br />
+R1(config-subif)#int f0/0.20<br />
+R1(config-subif)#encapsulation dot1q 20<br />
+R1(config-subif)#ip address<br /> 192.168.20.1 255.255.255.0<br />
+R1(config-subif)#no shut<br />
+R1(config-subif)#int f0/0<br />
+R1(config-if)#no shut<br />
 <img src="https://i.imgur.com/teD8Ayw.png" height="80%" width="80%" />
 <br />
 <br />
